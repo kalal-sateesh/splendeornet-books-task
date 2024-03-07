@@ -58,7 +58,7 @@ const EditBook = () => {
         placeholder="Please Enter title here"
         style={{
           width: "250px",
-          height: "30px",
+          height: "40px",
           padding: "5px",
           boxSizing: "border-box",
         }}
@@ -72,7 +72,7 @@ const EditBook = () => {
         placeholder="Please Enter Author name here"
         style={{
           width: "250px",
-          height: "30px",
+          height: "40px",
           padding: "5px",
           boxSizing: "border-box",
         }}
@@ -86,7 +86,7 @@ const EditBook = () => {
       <button
         style={{
           width: "100px",
-          height: "30px",
+          height: "40px",
           backgroundColor: "green",
           border: "none",
           borderRadius: "5px",

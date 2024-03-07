@@ -70,7 +70,7 @@ const AddBook = () => {
         placeholder="Please Enter title here"
         style={{
           width: "250px",
-          height: "30px",
+          height: "40px",
           padding: "5px",
           boxSizing: "border-box",
         }}
@@ -84,7 +84,7 @@ const AddBook = () => {
         placeholder="Please Enter Author name here"
         style={{
           width: "250px",
-          height: "30px",
+          height: "40px",
           padding: "5px",
           boxSizing: "border-box",
         }}
@@ -98,7 +98,7 @@ const AddBook = () => {
         placeholder="Please Enter image here"
         style={{
           width: "250px",
-          height: "30px",
+          height: "40px",
           padding: "5px",
           boxSizing: "border-box",
         }}
