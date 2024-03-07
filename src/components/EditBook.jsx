@@ -52,6 +52,7 @@ const EditBook = () => {
 
   return (
     <div>
+      <h3>EDIT YOUR BOOK</h3>
       <h3>Title</h3>
       <input
         placeholder="Please Enter title here"
@@ -83,7 +84,13 @@ const EditBook = () => {
       <br></br>
       <br></br>
       <button
-        style={{ width: "100px", height: "30px", backgroundColor: "green" }}
+        style={{
+          width: "100px",
+          height: "30px",
+          backgroundColor: "green",
+          border: "none",
+          borderRadius: "5px",
+        }}
         onClick={handleUpdate}
       >
         Save

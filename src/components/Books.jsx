@@ -105,11 +105,17 @@ const Books = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            gap: "5px",
+            gap: "10px",
           }}
         >
           <button
-            style={{ width: "25%", height: "80%", backgroundColor: "gray" }}
+            style={{
+              width: "25%",
+              height: "80%",
+              backgroundColor: "gray",
+              border: "none",
+              borderRadius: "5px",
+            }}
             onClick={() =>
               handleDetails(item.id, item.title, item.author, item.image)
             }
@@ -117,13 +123,25 @@ const Books = () => {
             Details
           </button>
           <button
-            style={{ width: "25%", height: "80%", backgroundColor: "Yellow" }}
+            style={{
+              width: "25%",
+              height: "80%",
+              backgroundColor: "Yellow",
+              border: "none",
+              borderRadius: "5px",
+            }}
             onClick={() => handleEdit(item.id, item.title, item.author)}
           >
             Edit
           </button>
           <button
-            style={{ width: "25%", height: "80%", backgroundColor: "red" }}
+            style={{
+              width: "25%",
+              height: "80%",
+              backgroundColor: "red",
+              border: "none",
+              borderRadius: "5px",
+            }}
             onClick={() => handleDelete(item.id)}
           >
             Delete
@@ -145,19 +163,32 @@ const Books = () => {
 
   return (
     <>
-      <div style={{ marginTop: "30px" }}>
+      <div style={{ marginTop: "15px" }}>
+        <h2>SEARCH BY TITLE</h2>
         <input
           style={{
             width: "250px",
             height: "40px",
             padding: "5px",
             boxSizing: "border-box",
+            border: "none",
+            borderRadius: "5px",
+            marginTop: "10px",
           }}
           placeholder="Search here by title"
           onChange={(e) => setSearch(e.target.value)}
         />
+        <br></br>
+        <br></br>
         <button
-          style={{ width: "100px", height: "40px", backgroundColor: "gray",marginLeft:"50px" }}
+          style={{
+            width: "100px",
+            height: "40px",
+            backgroundColor: "gray",
+            marginLeft: "10px",
+            border: "none",
+            borderRadius: "5px",
+          }}
           onClick={handleAddBook}
         >
           Add Book
@@ -171,7 +202,7 @@ const Books = () => {
           justifyContent: "center",
           flexWrap: "wrap",
           gap: "10px",
-          marginTop: "30px",
+          marginTop: "20px",
         }}
       >
         {list}

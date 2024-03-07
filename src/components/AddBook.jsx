@@ -64,6 +64,7 @@ const AddBook = () => {
 
   return (
     <div>
+      <h3>ADD YOUR BOOK</h3>
       <h3>Title</h3>
       <input
         placeholder="Please Enter title here"
@@ -110,16 +111,24 @@ const AddBook = () => {
       <button
         style={{
           width: "100px",
-          height: "30px",
+          height: "40px",
           backgroundColor: "gray",
           marginRight: "20px",
+          border: "none",
+          borderRadius: "5px",
         }}
         onClick={handleBack}
       >
         Back
       </button>
       <button
-        style={{ width: "100px", height: "30px", backgroundColor: "green" }}
+        style={{
+          width: "100px",
+          height: "40px",
+          backgroundColor: "green",
+          border: "none",
+          borderRadius: "5px",
+        }}
         onClick={handleAdd}
       >
         Add
